@@ -21,8 +21,8 @@ header {
     background-color: #4aaaa5;
     color: white;
     font-size: 2.25em;
-    position: relative;
-    left: 225px;
+    position: static;
+    margin-left: 150px;
 }
 #name #bryan {
     text-align: center;
@@ -37,6 +37,7 @@ nav {
     float: right;
     height: 100%;
     padding: 15px 0;
+    width: 50%;
 }
 nav ul {
     list-style: none;
@@ -125,6 +126,10 @@ footer {
     border: 2px #aaa solid;
     margin: 50px auto 150px auto;
     padding: 25px;
+    color: #4aaaa5;
+}
+
+#contact p {
     color: #888;
 }
 
@@ -138,6 +143,14 @@ textarea {
     width: 100%;
     border-color: #bbb;
     overflow: hidden;
+}
+button {
+    width: 100px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    border-style: none;
+    font-size: 1.15rem;
 }
 
 
@@ -236,10 +249,81 @@ h1 {
     nav ul li a {
         font-size: 1rem;
     }
+    /* Portfolio @770 */
+    #portfolio {
+        width: 90%;
+        margin-top: 80px;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    .image {
+        margin: 0 auto;
+    }
+    .images {
+       height: 250px;
+       width: 250px;
+       margin: 10px 35px;
+    }
+    #wordGuess {
+        position: absolute;
+        top: 400px;
+        left: 35px;
+        width: 500px;
+        height: 40px;
+        background-color: rgba(74, 170, 165, 0.5);
+        padding: 10px 0;
+        text-align: center;
+
+    }
+    #RPG {
+        position: absolute;
+        top: 1175px;
+        left: 67px;
+        width: 500px;
+        height: 40px;
+        background-color: rgba(74, 170, 165, 0.5);
+        padding: 10px 0;
+        text-align: center;
+        color: white;
+
+    }
+    #trivia {
+        position: absolute;
+        top: 1715px;
+        left: 67px;
+        width: 500px;
+        height: 40px;
+        background-color: rgba(74, 170, 165, 0.5);
+        padding: 10px 0;
+        text-align: center;
+        color: white;
+    }
+    #infoWidget {
+        position: absolute;
+        top: 2235px;
+        left: 67px;
+        width: 500px;
+        height: 40px;
+        background-color: rgba(74, 170, 165, 0.5);
+        padding: 10px 0;
+        text-align: center;
+        color: white;
+    }
+    #RPS {
+        position: absolute;
+        top: 2775px;
+        left: 67px;
+        width: 500px;
+        height: 40px;
+        background-color: rgba(74, 170, 165, 0.5);
+        padding: 10px 0;
+        text-align: center;
+        color: white;
+    }
 }
 
 @media (max-width: 640px) {
-    /* Header */
+    /* Header @640*/
     #name {
         clear:both;
         width: 100%;
@@ -264,7 +348,7 @@ h1 {
     nav ul li a {
         font-size: 1.5rem;
     }
-    /* Main Content */
+    /* Main Content @640*/
     #about-me {
         width: 90%;
         margin-top: 80px;
@@ -277,5 +361,84 @@ h1 {
     }
     #about-me p{
         clear: both;
+    }
+    /* Contact Page Styles @640 */
+    #contact {
+        width: 90%;
+        margin-top: 80px;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    /* Portfolio Page Styles @640 */
+    #portfolio {
+        width: 90%;
+        margin-top: 80px;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    .image {
+        margin: 0 auto;
+    }
+    .images {
+       height: 500px;
+       width: 500px;
+       margin: 10px 35px;
+    }
+
+    #wordGuess {
+        position: absolute;
+        top: 400px;
+        left: 35px;
+        width: 500px;
+        height: 40px;
+        background-color: rgba(74, 170, 165, 0.5);
+        padding: 10px 0;
+        text-align: center;
+
+    }
+    #RPG {
+        position: absolute;
+        top: 1175px;
+        left: 67px;
+        width: 500px;
+        height: 40px;
+        background-color: rgba(74, 170, 165, 0.5);
+        padding: 10px 0;
+        text-align: center;
+        color: white;
+
+    }
+    #trivia {
+        position: absolute;
+        top: 1715px;
+        left: 67px;
+        width: 500px;
+        height: 40px;
+        background-color: rgba(74, 170, 165, 0.5);
+        padding: 10px 0;
+        text-align: center;
+        color: white;
+    }
+    #infoWidget {
+        position: absolute;
+        top: 2235px;
+        left: 67px;
+        width: 500px;
+        height: 40px;
+        background-color: rgba(74, 170, 165, 0.5);
+        padding: 10px 0;
+        text-align: center;
+        color: white;
+    }
+    #RPS {
+        position: absolute;
+        top: 2775px;
+        left: 67px;
+        width: 500px;
+        height: 40px;
+        background-color: rgba(74, 170, 165, 0.5);
+        padding: 10px 0;
+        text-align: center;
+        color: white;
     }
 }
